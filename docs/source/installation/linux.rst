@@ -58,6 +58,12 @@ section.
 dnf – Fedora / CentOS / RHEL
 ****************************
 
+To install the C developement tools for building packages
+
+.. code-block:: bash
+
+  sudo dnf group install c-development
+
 To install Cairo and Pango:
 
 .. code-block:: bash
